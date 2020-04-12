@@ -1,0 +1,22 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Horizontal Navigation Bar w/Rollover Effect</title>
+  <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+
+  </style>
+</head>
+
+<body>
+  <div class="nav">
+    <a href="/">内容</a>
+    <a href="/about">about</a>
+  </div>
+  <div>
+    {% block main %}{% endblock %}
+  </div>
+</body>
+
+</html>

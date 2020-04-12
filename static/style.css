@@ -1,0 +1,28 @@
+.nav {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: burlywood;
+}
+
+.item_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.item {
+	position: relative;
+	border-color: black;
+	padding: 5%;
+}
+
+.item  h3 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align:center
+}
+
+.item img {
+	width: 100%;
+}

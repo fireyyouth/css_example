@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="item_list">
+{% for v in items %}
+    <div class="item">
+        <a href="{{ v.url }}">
+            <img src="{{ v.url }}">
+            <h3>{{ v.name }}</h3>
+        </a>
+    </div>
+{% endfor %}
+</div>
+
+{% endblock %}
